@@ -15,7 +15,7 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["السورس"سورس","سهى"])
+    command(["السورس", "سورس" ,"سهى"])
     & filters.group
     & ~filters.edited
 )
