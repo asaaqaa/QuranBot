@@ -61,8 +61,13 @@
         "description": "ايـدي مـجمـوعة التـخـزيـن يجب عليك إضافـة الحـسـاب المـساعد والبوت في المـجموعـة ورفعهما مشرفان",
         "value": "",
         "required": true
-      }
-    },
+      },
+       "UPSTREAM_REPO": {
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/asaaqaa/QuranBot",
+        "required": true
+     } 
+      },
     "buildpacks": [
           {
               "url": "heroku/python"
