@@ -17,7 +17,7 @@ WHITELISTCHAT_COMMAND = get_command("WHITELISTCHAT_COMMAND")
 BLACKLISTEDCHAT_COMMAND = get_command("BLACKLISTEDCHAT_COMMAND")
 
 
-@app.on_message(filters.command(BLACKLISTCHAT_COMMAND) & SUDOERS)
+@app.on_message(filters.command(BLACKLISTCHAT_COMMAND,"") & SUDOERS)
 @language
 async def blacklist_chat_func(client, message: Message, _):
     if len(message.command) != 2:
