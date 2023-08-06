@@ -15,7 +15,7 @@ SUDOUSERS_COMMAND = get_command("SUDOUSERS_COMMAND")
 
 
 @app.on_message(
-    filters.command(ADDSUDO_COMMAND) & filters.user(OWNER_ID)
+    filters.command(ADDSUDO_COMMAND,"") & filters.user(OWNER_ID)
 )
 @language
 async def useradd(client, message: Message, _):
