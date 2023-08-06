@@ -14,7 +14,7 @@ UNBLOCK_COMMAND = get_command("UNBLOCK_COMMAND")
 BLOCKED_COMMAND = get_command("BLOCKED_COMMAND")
 
 
-@app.on_message(filters.command(BLOCK_COMMAND) & SUDOERS)
+@app.on_message(filters.command(BLOCK_COMMAND,"") & SUDOERS)
 @language
 async def useradd(client, message: Message, _):
     if not message.reply_to_message:
