@@ -1,6 +1,6 @@
 PING_COMMAND : ["بنك", "فحص"]
 START_COMMAND : ["start", "تفعيل"]
-HELP_COMMAND : ["مساعدة"]
+HELP_COMMAND : ["ميوزك"] 
 SETTINGS_COMMAND : ["الاعدادات", "setting"]
 RELOAD_COMMAND : ["ريلود", "reload"]
 GSTATS_COMMAND : ["gstats", "globalstats"]
