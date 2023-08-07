@@ -20,7 +20,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
 
 
 @app.on_message(
-    filters.command(HELP_COMMAND,"")
+    filters.command(["help", "مساعده", "اوامر"]) | filters.command(["help","مساعده","اوامر"],prefixes= ["/", "!","","#"])
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
