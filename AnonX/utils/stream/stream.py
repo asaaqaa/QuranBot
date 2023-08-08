@@ -14,10 +14,10 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from YukkiMusic import Carbon, YouTube, app
-from YukkiMusic.core.call import Anon
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (add_active_chat,
+from AnonX import Carbon, YouTube, app
+from AnonX.core.call import Anon
+from AnonX.misc import db
+from AnonX.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        is_active_chat,
                                        is_video_allowed, music_on)
