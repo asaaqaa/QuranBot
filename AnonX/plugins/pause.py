@@ -12,17 +12,17 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.database import is_music_playing, music_off
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from AnonX import app
+from AnonX.core.call import Anon
+from AnonX.utils.database import is_music_playing, music_off
+from AnonX.utils.decorators import AdminRightsCheck
 
 # Commands
 PAUSE_COMMAND = get_command("PAUSE_COMMAND")
 
 
 @app.on_message(
-    filters.command(PAUSE_COMMAND)
+    filters.command(PAUSE_COMMAND,"")
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
