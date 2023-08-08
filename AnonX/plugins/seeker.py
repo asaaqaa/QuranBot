@@ -19,7 +19,7 @@ from AnonX.utils.formatters import seconds_to_min
 from AnonX.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
-from ..admins.callback import wrong
+from ..plugins.callback import wrong
 
 checker = {}
 
