@@ -25,7 +25,7 @@ from AnonX.utils.exceptions import AssistantErr
 from AnonX.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from AnonX.utils.inline.playlist import close_markup
-from AnonX.utils.pastebin import Yukkibin
+from AnonX.utils.pastebin import  Anonbin
 from AnonX.utils.stream.queue import put_queue, put_queue_index
 from AnonX.utils.thumbnails import gen_thumb
 
