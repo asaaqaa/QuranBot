@@ -28,8 +28,8 @@ from AnonX.utils.database import (add_served_chat,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from YukkiMusic.utils.decorators.language import LanguageStart
-from YukkiMusic.utils.inline import (help_pannel, private_panel,
+from AnonX.utils.decorators.language import LanguageStart
+from AnonX.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
